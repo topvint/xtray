@@ -10,6 +10,10 @@ _Xtray for the Original Xbox_ is a replacement bracket for the DVD drive, with a
 
 </header>
 
+## Table of Contents
+
+ 1. [Requirements for building your own Xtray](#requirements-for-building-your-own-xtray)
+
 # Requirements for building your own Xtray
 
 The main things you need to build your own Xtray are as follows:
