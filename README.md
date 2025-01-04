@@ -18,7 +18,12 @@ The main things you need to build your own Xtray are as follows:
 2. The Xtray PCB providing all the (very simple) electronics to power and control the LED
 3. The LED strip itself
 4. A cable to connect the Xtray PCB to the power socket in the Xbox motherboard
-5. 2x screwes to fix the Xtray PCB to the Xtray 3D printed bracket-   
+5. 2x screwes to fix the Xtray PCB to the Xtray 3D printed bracket-
+
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img src="https://github.com/user-attachments/assets/b415e0ab-314a-4230-96bf-7c361b50fec6" width="150" /> |  <img src="https://github.com/user-attachments/assets/9fa0e501-049f-4aa2-a749-abb537ba2b8a" width="250" />| <img src="https://github.com/user-attachments/assets/f2e81bca-276c-4b31-9693-5f541a353f4e" width="150" /> |
+
 
 ## 1 - The Xtrax 3D printed bracket
 _The Xtray 3D printed bracket_ is a variation of the [Xbox DVD Elimination Bracket](https://www.printables.com/model/206888-xbox-dvd-elimination-bracket) by RubyRoid. 
@@ -27,6 +32,9 @@ back of the bracket. These additions include two hollow poles for 2 screws so th
 
 You can find the model for the Xtray bracket in the [appropriate project directory](https://github.com/topvint/xtray/tree/main/xtray_v1_3D). 
 Please note the LICENSE file explaining the connection between the GPL 3.0 licnese for this project and the CC BY-SA license of the original bracket. 
+
+<img src="https://github.com/user-attachments/assets/1bf749b7-64cd-46a7-8472-e4124245f299" width="500" />
+
 
 ## 2 - The Xtrax PCB
 
@@ -43,6 +51,9 @@ This is the Bill of Materials you need to build the Xtray v1:
 _A word on attribution:_ While you are welcome, as per the license, to modify the PCB to suit your needs, **please maintain attribution in the silk screen** by keeping the Topvint name, website and logo. I'd prefer for it to be kept visible once installed,
 but if you would like to add your own logo or name, and there is no apace, I'm happy with moving the logo or website to the back of the PCB as long as some form of attribution is visible in the front of the PCB.
 
+<img src="https://github.com/user-attachments/assets/d84c505c-7d77-44a5-87cd-7864486a24dd" width="500" />
+
+
 ## 3 - The LED strip
 
 These are sometimes referred as LED filament, LED noodles, etc. They are available in multiple colours. The main thing here is that it needs to be 300mm long and needs to take 3 volts. That lenght is just enough to reach around the 
@@ -50,6 +61,10 @@ faceplate ticht enough so that it is self-supporting, and thread into the back o
 In all the products I have used, the positive side is denoted by a small hole in the pin.
 
 You can find these LED strips anywhere these days and but [these are an example](https://www.aliexpress.com/item/1005006707119591.html?spm=a2g0o.order_list.order_list_main.16.76361802tLf6zl) of the ones I have used before. 
+
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img src="https://github.com/user-attachments/assets/3e3de719-75e1-47b7-98f5-034150fad098" width="200" /> |  <img src="https://github.com/user-attachments/assets/b560f57c-a4f1-4588-8e66-bf6624f200c2" width="200" />| <img src="https://github.com/user-attachments/assets/74cb53ec-c98d-44c8-8d32-e64fde007ef2" width="200" /> |
 
 ## 4 - The cable
 
@@ -70,12 +85,18 @@ and ideally you would want to have metal inserts, pre-threaded plastic studs, et
 # Assembly
 
 The assembly of the Xtray PCB just requires you to solder 4 components i.e. 
-- The socket (throgh hole). The only difficuly here is to make sure that you position this in the PCB in the right way, as that would dictate which pin gets the 5V power. Please check the photos but essentially, the indentation of the plastic needs to be closest to the bottom of the Xtray PCB. That will ensure that, when inserted, the 5V comes out in the right pin. 
+- The socket (throgh hole). The only difficuly here is to make sure that you position this in the PCB in the right way, as that would dictate which pin gets the 5V power. Please check the photos but essentially, the indentation of the plastic needs to be closest to the top of the Xtray PCB. That will ensure that, when inserted, the 5V comes out in the right pin. 
 - The variable resitor (through hole). Again, please make sure you orient the component in the right location for the variable resistive path to be in the right pins. Check out the photos, but when the resistor is turned to its middle possition, the top pin in the PCB should align with the number in the resistor (i.e. 101 for 100Ohm), which will dictate the position of the other two pins. 
 - The 22ohm resistor (SMD). It doesn't matter how you solder this component. 
 - The LED strip (SMD). As mentioned above, just make sure you solder the positive pin to the pad marked with a "+" in the Xtray PCB.
 
 Once the PCB is assembled and you have printed the bracket, thread the two ends of the LED strip through teh right holes i.e. looking at the bracket from the back, leftmost hole for the possitive end of the LED strip (the one with a small hole), and rightmost hole for the negative side of the strip. Thread most of the LED strip so that you have space to manouver your PCB and soldering iron. Pre-tin the LED pads in the PCB as it will make your lef easier when soldering the LED strip terminals. Solder each LED terminal to around half way of its length, as this will give you just enough space for ensuring the PCB sits confortably in its allocated place and can also help the LED terminal flex slightly if necessary. Screw the PCB using the two self-tapping screws, but do not tighten it too much as it will need to be unscrewed again for installation. 
+
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img src="https://github.com/user-attachments/assets/70286910-2759-4f53-a7fe-a0d0accd5eb3" width="220" /> |  <img src="https://github.com/user-attachments/assets/acc08f91-eb03-4431-baa5-98af28cf9d95" width="220" />| <img src="https://github.com/user-attachments/assets/137d0e7f-ab06-485b-9182-2f92d277d5a3" width="220" /> |
+
+
 
 # Installation 
 
@@ -99,3 +120,9 @@ The Xtray still needs the original faceplate of the Xbox DVD drive, which slids 
   - Turn on the console and adjust the brightness of the LED by inserting a flat screw driver in the potentiometer installed in the Xtray PCB. The circuit is designed not to exceed the maximum power that the LED strip can handle (100mA) no matter how much you turn it.
   - When you are happy with the britghness level, put back the top of shell and screw it back in place.
   - Turn off the lights during gameplay and enjoy your OG Xbox!
+
+ <img src="https://github.com/user-attachments/assets/7984670f-459e-493d-b8d0-47cff0696e77" width="500" />
+
+# Can I buy a pre-built Xtray? 
+
+Sure you can, and in various colours. I have an online shop where I sell this and other mods for various systems, and I also offer send-in services. Check [my website](topvint.co.uk) out and here specifically [you can buy the Xtray](https://topvint.co.uk/product/xtray-for-og-xbox/) in various colours.    
